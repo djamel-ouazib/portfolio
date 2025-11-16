@@ -97,7 +97,7 @@ export default function Home() {
                             <motion.p
                                 className={
                                     darkMode
-                                        ? 'text-black text-sm sm:text-base leading-relaxed tracking-wide text-justify dark:text-gray-200'
+                                        ? 'text-gray-300 leading-relaxed tracking-wide text-justify text-sm sm:text-base'
                                         : 'text-black leading-relaxed tracking-wide text-justify dark:text-gray-800  text-sm sm:text-base'
                                 }
                                 initial={{ opacity: 0 }}
