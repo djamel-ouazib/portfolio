@@ -41,7 +41,10 @@ function ProjetSection() {
                         : { whileHover: { opacity: 1 } })}
                     className="absolute w-full  h-full flex justify-center items-center flex-col gap-2 rounded-2xl bg-white/10 backdrop-blur-sm"
                 >
-                    <a rel="noopener noreferrer">
+                    <a
+                        href="https://type-rush-clean-tegd.vercel.app/"
+                        rel="noopener noreferrer"
+                    >
                         <button className="bg-white/30 backdrop-blur-lg flex gap-2 justify-center items-center text-[17px] font-light  rounded-2xl text-center w-[200px] h-15 cursor-pointer  text-black border border-zinc-400">
                             {ArrowUpRight} Voir Le Projet
                         </button>
