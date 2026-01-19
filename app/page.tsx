@@ -30,6 +30,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import { AnimatePresence } from 'framer-motion'
 import Loader from './components/Loader'
+import ProjetSectionFour from './components/ProjetSectionFour'
 export default function Home() {
     const lenis = useLenis((instance) => {
         console.log('Scroll position:', instance.scroll)
@@ -371,6 +372,7 @@ export default function Home() {
                             <ProjetSection />
                             <ProjetSectionTwo />
                             <ProjetSectionThree />
+                            <ProjetSectionFour />
                         </div>
                     </div>
                     <div className="mt-7">
