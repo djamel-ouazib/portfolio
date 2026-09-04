@@ -32,6 +32,10 @@ import { AnimatePresence } from 'framer-motion'
 import Loader from './components/Loader'
 import ProjetSectionFour from './components/ProjetSectionFour'
 import ProjetSectionFive from './components/ProjectSectionFive'
+import ProjetSectionSix from './components/ProjectSectionSix'
+import ProjetSectionSeven from './components/ProjetSectionSeven'
+import ProjetSectionHeight from './components/ProjectSectionHeight'
+;('./components/ProjetSectionSeven')
 export default function Home() {
     const lenis = useLenis((instance) => {
         console.log('Scroll position:', instance.scroll)
@@ -152,7 +156,10 @@ export default function Home() {
                             </motion.p>
                         </section>
                         <section className="flex justify-center space-y-4">
-                            <a href="/CV.pdf" download>
+                            <a
+                                href="/CV_Djamel_Ouazib_Developpeur_fullstack.pdf"
+                                download
+                            >
                                 <motion.button
                                     className={
                                         darkMode
@@ -370,11 +377,14 @@ export default function Home() {
                             Mes Projets
                         </h2>
                         <div className="flex flex-col gap-7">
+                            <ProjetSectionHeight />
                             <ProjetSection />
                             <ProjetSectionTwo />
                             <ProjetSectionThree />
                             <ProjetSectionFour />
                             <ProjetSectionFive />
+                            <ProjetSectionSix />
+                            <ProjetSectionSeven />
                         </div>
                     </div>
                     <div className="mt-7">
