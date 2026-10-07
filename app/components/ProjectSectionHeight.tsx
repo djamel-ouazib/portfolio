@@ -109,16 +109,16 @@ function ProjetSection() {
                 <div>
                     <div className="space-x-3">
                         <span className="text-sm sm:text-base md:text-[17px] font-light inline-flex justify-center text-blue-500  bg-blue-500/10 px-3 py-1 rounded-2xl backdrop-blur-sm">
-                            React
+                            Next js
                         </span>
                         <span className="text-sm sm:text-base md:text-[17px] inline-flex justify-center text-yellow-500 font-light bg-yellow-500/10 px-3 py-1 rounded-2xl backdrop-blur-sm">
-                            javscript
+                            Typescript
                         </span>
                         <span className="text-sm sm:text-base md:text-[17px] inline-flex justify-center text-blue-300 font-light bg-blue-300/10 px-3 py-1 rounded-2xl backdrop-blur-sm">
                             tailwind
                         </span>
                         <span className="text-sm sm:text-base md:text-[17px] inline-flex justify-center text-yellow-500 font-light bg-yellow-500/10 px-3 py-1 rounded-2xl backdrop-blur-sm">
-                            Symfony
+                            motion
                         </span>
                     </div>
                 </div>
