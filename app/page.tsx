@@ -157,7 +157,7 @@ export default function Home() {
                         </section>
                         <section className="flex justify-center space-y-4">
                             <a
-                                href="/CV_Djamel_Ouazib_Developpeur_fullstack.pdf"
+                                href="/CV_Développeur_FullStack_Djamel_Ouazib_ESGI.pdf"
                                 download
                             >
                                 <motion.button
